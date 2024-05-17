@@ -1,0 +1,90 @@
+.background{
+    weight: 592;
+    height: 152;
+    background-color: #FFFBFB;}
+
+body{background-color: #111010;}
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 2rem 4rem;
+    gap: 5rem;
+}
+
+img{
+width: 15rem;
+height: 15rem;
+border-radius: 50%;
+object-fit: cover;
+
+}
+#id{
+    font-family: font-family: "Inter", sans-serif;
+
+}
+.judul{
+    color: #FFFBFB;
+    font-family: inter;
+    text-align: center;
+}
+p{
+    color: #FFFBFB;
+    text-align:center;
+}
+i{
+    color: #FFFBFB;
+    position: relative;
+    left: 47.5%;
+    
+}
+ol{
+    color: #FFFBFB;
+    display: inline-block;
+    position: relative;
+    left: 30%;
+}
+ul{
+    color: #FFFBFB; 
+    display: inline-block;
+    position: relative;
+    left: 30%;
+}
+
+.container {
+    position: absolute;
+    top: 20px; /* Atur jarak dari atas */
+    right: 20px; /* Atur jarak dari kanan */
+    display: grid;
+    grid-template-columns: repeat(6, auto); /* Membuat 6 kolom dengan lebar otomatis */
+    gap: 10px; /* Atur jarak antar tombol */
+}
+
+button{
+    padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #990000;
+  }
+
+  button:active {
+    background-color: #990000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
